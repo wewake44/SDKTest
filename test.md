@@ -5,7 +5,7 @@ An app can provide own menu entries, use the reverse proxy infrastructure includ
 
 The package-manifest is essential for the integration points. Beside the snapcraft.yaml, it is strongly recommended that the app has to provide the package manifest to be integrated into the ctrlX CORE system. The package-manifest file should follow the naming structure `<app name>.<package-manifest>.json` where `<app name>` and the `id` property in the package-manifest are both set to the `name (technical app name)` as mentioned in the [snapcraft](appdevguide_basechecks.md) documentation.
 
-in the [snapcraft](icons.html) documentation.
+in the [snapcraft](icons.html) documentation
 
 The package-manifest file name should follow the pattern:
 
